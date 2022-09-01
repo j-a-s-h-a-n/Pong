@@ -89,5 +89,5 @@ def main():
             if window.ball.x < 0:
                 rightscore += 1
             window.reset()
-
+        window.drawWindow(leftscore, rightscore)
 main()
